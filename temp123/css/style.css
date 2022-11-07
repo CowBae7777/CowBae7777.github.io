@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+nav > ul{
+    list-style: none;
+    background-color: lightpink;
+    margin: 0;
+    padding: 0;
+}
+nav li:hover{
+    background-color: #fcd0c4;
+    color: white;
+}
+.flex-nav{
+    display:flex;
+    justify-content: space-between;
+}
