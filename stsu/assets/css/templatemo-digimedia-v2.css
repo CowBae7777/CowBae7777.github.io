@@ -104,7 +104,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: #000000;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -130,7 +130,7 @@ p {
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
-  color: #afafaf;
+  color: #fff;
 }
 
 img {
@@ -145,18 +145,18 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #000000;
   font-family: 'Poppins', sans-serif;
 }
 
 ::selection {
   background: #fe664e;
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 ::-moz-selection {
   background: #fe664e;
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 @media (max-width: 991px) {
@@ -194,7 +194,7 @@ body {
 }
 
 .section-heading h4 {
-  color: #2a2a2a;
+  color: #fff;
   font-size: 35px;
   font-weight: 700;
   text-transform: capitalize;
@@ -225,7 +225,7 @@ body {
 
 .border-first-button a:hover {
   background-color: #fe664e;
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 
@@ -275,7 +275,7 @@ header
 
 .pre-header ul.social-media li a {
   background-color: #afafaf;
-  color: #fff;
+  color: #000000;
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -291,7 +291,7 @@ header
 }
 
 .background-header {
-  background-color: #fff!important;
+  background-color: #000000!important;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -302,7 +302,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #fff;
+  color: #000000;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -311,7 +311,7 @@ header
 
 .background-header .nav li a.active {
   position: relative;
-  color: #fff;
+  color: #000000;
 }
 
 .background-header .nav li a.active:after {
@@ -330,7 +330,7 @@ header
 }
 
 .header-area {
-  background-color: #fff;
+  background-color: #000000;
   box-shadow: 0px 5px 8px rgba(0,0,0,0.03);
   position: absolute;
   left: 0px;
@@ -404,7 +404,7 @@ header
 
 .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover {
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 .header-area .main-nav .nav li a {
@@ -491,7 +491,7 @@ header
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
-  background: #fff;
+  background: #000000;
   color: #fe664e!important;
   padding-left: 25px;
 }
@@ -678,7 +678,7 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #fff;
+    background-color: #000000;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -718,7 +718,7 @@ header
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fff;
+    background: #000000;
     border-bottom: 1px solid #e7e7e7;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -786,7 +786,7 @@ preloader
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: #000000;
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -838,7 +838,7 @@ preloader
     position: relative;
     width: 142px;
     height: 40px;
-    background: #fff;
+    background: #000000;
 }
 
 .preloader-inner .dot {
@@ -933,7 +933,7 @@ Banner Style
   position: relative;
   font-weight: 700;
   font-size: 50px;
-  color: #2a2a2a;
+  color:#0dcaf0;
   margin-bottom: 20px;
 }
 
@@ -1001,7 +1001,7 @@ About Style
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 5px solid #fff;
+  border: 5px solid #000000;
   position: absolute;
   top: 0;
   left: 0;
@@ -1266,7 +1266,7 @@ Services Style
 }
 
 .services .naccs .menu div h4 {
-  color: #fff;
+  color: #000000;
   font-size: 15px;
   font-weight: 400;
   width: 100%;
@@ -1301,7 +1301,7 @@ Services Style
   display: inline-block;
   width: 100%;
   padding: 30px 0px;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .services .naccs .menu div.active {
@@ -1333,7 +1333,7 @@ Services Style
   opacity: 1;
   transform: translateX(0px);
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-  background-color: #fff;
+  background-color: #000000;
   border-radius: 15px;
   padding: 80px 120px 50px 120px;
 }
@@ -1362,11 +1362,11 @@ Services Style
 
 .services .nacc .thumb .main-white-button a {
   background-color: #8d99af;
-  color: #fff;
+  color: #000000;
 }
 
 .services .nacc .thumb .main-white-button a i {
-  background-color: #fff;
+  background-color: #000000;
   color: #8d99af;
 }
 
@@ -1415,16 +1415,16 @@ Free Quote
 
 .free-quote .section-heading h6,
 .free-quote .section-heading h4 {
-  color: #fff;
+  color: #000000;
 }
 
 .free-quote .section-heading .line-dec {
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .free-quote form {
-  background-color: #fff;
+  background-color: #000000;
   display: inline-block;
   width: 100%;
   min-height: 80px;
@@ -1461,7 +1461,7 @@ Free Quote
   margin-left: 30px;
   background-color: #fe664e;
   font-size: 15px;
-  color: #fff;
+  color: #000000;
 }
 
 
@@ -1540,7 +1540,7 @@ Portfolio
 }
 
 .portfolio-item .down-content {
-  background-color: #fff;
+  background-color: #000;
   text-align: center;
   padding: 18px 0px;
   border-bottom-right-radius: 23px;
@@ -1550,7 +1550,7 @@ Portfolio
 .portfolio-item .down-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #fff;
   margin-bottom: 8px;
   transition: all .3s;
 }
@@ -1582,12 +1582,12 @@ Portfolio
   font-size: 30px;
   background-color: #eee;
   border-radius: 50%;
-  color: #fff;
+  color: #000000;
   transition: all 0.5s;
 }
 
 .our-portfolio .owl-nav span:hover {
-  color: #fff;
+  color: #000000;
   background-color: #fe664e;
 }
 
@@ -1642,13 +1642,13 @@ Blog
 .blog-post .down-content {
   border-bottom-right-radius: 23px;
   border-bottom-left-radius: 23px;
-  background-color: #fff;
+  background-color: #000000;
   padding: 30px;
 }
 
 .blog-post .down-content span.category {
   font-size: 15px;
-  color: #fff;
+  color: #000000;
   padding: 8px 12px;
   background-color: #fe664e;
   border-radius: 18px;
@@ -1721,7 +1721,7 @@ Blog
 
 .post-item .right-content span.category {
   font-size: 15px;
-  color: #fff;
+  color: #000000;
   padding: 8px 12px;
   background-color: #fe664e;
   border-radius: 18px;
@@ -1800,7 +1800,7 @@ form#contact:after {
 form#contact {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   position: relative;
-  background-color: #fff;
+  background-color: #000000;
   border-radius: 23px;
   text-align: center;
 }
@@ -1817,7 +1817,7 @@ form#contact #map iframe {
   padding: 80px 60px 80px 30px;
 }
 
-.fill-form .info-post {
+.fill-form  nfo-post {
   margin-bottom: 20px;
 }
 
@@ -1839,7 +1839,7 @@ form#contact #map iframe {
   display: inline-block;
   font-size: 15px;
   font-weight: 500;
-  color: #2a2a2a;
+  color: #fff;
   transition: all .3s;
 }
 
@@ -1889,7 +1889,7 @@ form#contact textarea::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #fff;
+  background-color: #000000;
   font-size: 15px;
   font-weight: 400;
   color: #fe664e;
@@ -1906,7 +1906,7 @@ form#contact button {
 
 form#contact button:hover {
   background-color: #fe664e!important;
-  color: #fff!important;
+  color: #000000!important;
 }
 
 /* 
@@ -1926,11 +1926,11 @@ footer {
 footer p {
   text-align: center;
   margin: 20px 0px;
-  color: #fff;
+  color: #000000;
 }
 
 footer p a {
-  color: #fff;
+  color: #000000;
   transition: all .5s;
 }
 
