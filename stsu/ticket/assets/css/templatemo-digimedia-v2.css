@@ -104,7 +104,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #000000;
+  background-color: #000;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -928,18 +928,19 @@ Banner Style
   text-transform: uppercase;
 }
 
-.main-banner .left-content h2 {
+.main-banner .left-content h3 {
   z-index: 2;
   position: relative;
   font-weight: 700;
-  font-size: 50px;
-  color:#0dcaf0;
+  font-size: 45px;
+  color:#FFF;
   margin-bottom: 20px;
 }
 
 .main-banner .left-content p {
   margin-bottom: 30px;
   margin-right: 45px;
+  font-size: 20px;
 }
 
 .main-banner .right-image {
