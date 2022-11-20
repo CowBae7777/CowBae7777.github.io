@@ -1371,13 +1371,14 @@ Services Style
 }
 
 .services .left-text h4 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   color: #fe664e !important;
 }
 
 .services .left-text p {
   margin-bottom: 30px;
+  font-size: 20px;
 }
 
 .nacc .ticks-list span {
