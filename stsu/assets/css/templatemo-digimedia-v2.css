@@ -2081,7 +2081,7 @@ responsive
     display: inline-block;
   }
   .services .naccs .menu div .thumb {
-    padding: 20px;
+    padding: 0px;
   }
   .services .icon img {
     margin: 0px;
@@ -2090,7 +2090,7 @@ responsive
     padding: 45px;
   }
   .services .naccs .menu div  {
-    font-size: 0px;
+    font-size: 1px;
   }
   .services ul.nacc li .right-image img {
     float: none;
