@@ -150,12 +150,12 @@ body {
 }
 
 ::selection {
-  background: #fe664e;
+  background: lightskyblue;
   color: #000000 !important;
 }
 
 ::-moz-selection {
-  background: #fe664e;
+  background: lightskyblue;
   color: #000000 !important;
 }
 
@@ -188,7 +188,7 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #fe664e;
+  color: lightskyblue;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -203,13 +203,13 @@ body {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #fe664e;
+  color: lightskyblue;
 }
 
 .section-heading .line-dec {
   width: 50px;
   height: 2px;
-  background-color: #fe664e;
+  background-color: lightskyblue;
 }
 
 .border-first-button a {
@@ -224,7 +224,7 @@ body {
 }
 
 .border-first-button a:hover {
-  background-color: #fe664e;
+  background-color: lightskyblue;
   color: #000000 !important;
 }
 
@@ -257,7 +257,7 @@ header
 }
 
 .pre-header ul.info li a:hover {
-  color: #fe664e;
+  color: lightskyblue;
 }
 
 .pre-header ul.info li a i {
@@ -287,7 +287,7 @@ header
 }
 
 .pre-header ul.social-media li a:hover {
-  background-color: #fe664e;
+  background-color: lightskyblue;
 }
 
 .background-header {
@@ -306,7 +306,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fe664e;
+  color: lightskyblue;
 }
 
 .background-header .nav li a.active {
@@ -318,7 +318,7 @@ header
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: #fe664e;
+  background-color: lightskyblue;
   content: '';
   left: 50%;
   bottom: -20px;
@@ -425,12 +425,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fe664e!important;
+  color: lightskyblue!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fe664e!important;
+  color: lightskyblue!important;
   opacity: 1;
 }
 
@@ -492,7 +492,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #000000;
-  color: #fe664e!important;
+  color: lightskyblue!important;
   padding-left: 25px;
 }
 
@@ -632,7 +632,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fe664e;
+  color: lightskyblue;
 }
 
 @media (max-width: 1200px) {
@@ -671,7 +671,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #fe664e!important;
+    color: lightskyblue!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -733,7 +733,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fe664e!important;
+    color: lightskyblue!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -847,7 +847,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #fe664e;
+    background: lightskyblue;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -870,7 +870,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #fe664e;
+    background: lightskyblue;
     border-radius: 50%;
 }
 
@@ -923,7 +923,7 @@ Banner Style
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 700;
-  color: #fe664e;
+  color: lightskyblue;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -1029,15 +1029,15 @@ About Style
 }
 
 .first-skill-item .progress .progress-bar {
-  border-color: #fe664e;
+  border-color: lightskyblue;
 }
 
 .second-skill-item .progress .progress-bar {
-  border-color: #726ae3;
+  border-color: darkgreen;
 }
 
 .third-skill-item .progress .progress-bar {
-  border-color: #f58b56;
+  border-color: #fff;
 }
 
 .progress .progress-left .progress-bar {
@@ -1061,7 +1061,7 @@ About Style
 }
 .progress .progress-value {
   text-align: center;
-  color: #2a2a2a;
+  color: #fff;
   display: flex;
   width: 100%;
   border-radius: 50%;
@@ -1373,7 +1373,7 @@ Services Style
 .services .left-text h4 {
   font-size: 30px;
   font-weight: 700;
-  color: #fe664e !important;
+  color: lightskyblue !important;
 }
 
 .services .left-text p {
@@ -1460,7 +1460,7 @@ Free Quote
   outline: none;
   border: none;
   margin-left: 30px;
-  background-color: #fe664e;
+  background-color: lightskyblue;
   font-size: 15px;
   color: #000000;
 }
@@ -1531,7 +1531,7 @@ Portfolio
 
 .portfolio-item:hover .down-content h4,
 .portfolio-item:hover .down-content span {
-  color: #fe664e;
+  color: lightskyblue;
 }
 
 .portfolio-item .thumb img {
@@ -1589,7 +1589,7 @@ Portfolio
 
 .our-portfolio .owl-nav span:hover {
   color: #000000;
-  background-color: #fe664e;
+  background-color: lightskyblue;
 }
 
 
@@ -1651,7 +1651,7 @@ Blog
   font-size: 15px;
   color: #000000;
   padding: 8px 12px;
-  background-color: #fe664e;
+  background-color: lightskyblue;
   border-radius: 18px;
   display: inline-block;
 }
@@ -1724,7 +1724,7 @@ Blog
   font-size: 15px;
   color: #000000;
   padding: 8px 12px;
-  background-color: #fe664e;
+  background-color: lightskyblue;
   border-radius: 18px;
   display: inline-block;
 }
@@ -1845,7 +1845,7 @@ form#contact #map iframe {
 }
 
 .fill-form .icon:hover a {
-  color: #fe664e;
+  color: lightskyblue;
 }
 
 form#contact input {
@@ -1893,20 +1893,20 @@ form#contact button {
   background-color: #000000;
   font-size: 15px;
   font-weight: 400;
-  color: #fe664e;
+  color: lightskyblue;
   margin-top: 30px;
   width: 100%;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border: 1px solid #fe664e;
+  border: 1px solid lightskyblue;
   transition: all .3s;
   outline: none;
 }
 
 form#contact button:hover {
-  background-color: #fe664e!important;
+  background-color: lightskyblue!important;
   color: #000000!important;
 }
 
