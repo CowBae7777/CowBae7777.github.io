@@ -932,14 +932,14 @@ Banner Style
   z-index: 2;
   position: relative;
   font-weight: 700;
-  font-size: 50px;
-  color:#0dcaf0;
+  font-size: 30px;
+  color:lightcoral;
   margin-bottom: 20px;
 }
 
 .main-banner .left-content p {
   margin-bottom: 30px;
-  margin-right: 45px;
+  /*margin-right: 45px;*/
 }
 
 .main-banner .right-image {
