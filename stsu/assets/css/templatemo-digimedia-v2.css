@@ -215,8 +215,8 @@ body {
 .border-first-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #fe664e !important;
-  border: 1px solid #fe664e !important;
+  color: lightskyblue !important;
+  border: 1px solid lightskyblue !important;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -933,7 +933,7 @@ Banner Style
   position: relative;
   font-weight: 700;
   font-size: 30px;
-  color:lightcoral;
+  color:lightskyblue;
   margin-bottom: 20px;
 }
 
@@ -1679,7 +1679,7 @@ Blog
 
 .blog-post .down-content span.author {
   font-size: 15px;
-  color: #2a2a2a;
+  color: #fff3cd;
 }
 
 .blog-post .down-content span.author img {
