@@ -104,7 +104,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #000;
+  background-color: darkgreen;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -150,12 +150,12 @@ body {
 }
 
 ::selection {
-  background: #fe664e;
+  background: lightskyblue;
   color: #000000 !important;
 }
 
 ::-moz-selection {
-  background: #fe664e;
+  background: lightskyblue;
   color: #000000 !important;
 }
 
@@ -188,14 +188,14 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #fe664e;
+  color: lightskyblue;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
 
 .section-heading h4 {
   color: #fff;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   text-transform: capitalize;
   margin-bottom: 25px;
@@ -203,20 +203,20 @@ body {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #fe664e;
+  color: lightskyblue;
 }
 
 .section-heading .line-dec {
   width: 50px;
   height: 2px;
-  background-color: #fe664e;
+  background-color: lightskyblue;
 }
 
 .border-first-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #fe664e !important;
-  border: 1px solid #fe664e !important;
+  color: lightskyblue !important;
+  border: 1px solid lightskyblue !important;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -224,7 +224,7 @@ body {
 }
 
 .border-first-button a:hover {
-  background-color: #fe664e;
+  background-color: lightskyblue;
   color: #000000 !important;
 }
 
@@ -257,7 +257,7 @@ header
 }
 
 .pre-header ul.info li a:hover {
-  color: #fe664e;
+  color: lightskyblue;
 }
 
 .pre-header ul.info li a i {
@@ -287,7 +287,7 @@ header
 }
 
 .pre-header ul.social-media li a:hover {
-  background-color: #fe664e;
+  background-color: lightskyblue;
 }
 
 .background-header {
@@ -306,7 +306,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fe664e;
+  color: lightskyblue;
 }
 
 .background-header .nav li a.active {
@@ -318,7 +318,7 @@ header
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: #fe664e;
+  background-color: lightskyblue;
   content: '';
   left: 50%;
   bottom: -20px;
@@ -330,7 +330,7 @@ header
 }
 
 .header-area {
-  background-color: #000000;
+  /*background-color: rgba(112, 109, 109, 0.3);*/
   box-shadow: 0px 5px 8px rgba(0,0,0,0.03);
   position: absolute;
   left: 0px;
@@ -425,12 +425,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fe664e!important;
+  color: lightskyblue!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fe664e!important;
+  color: lightskyblue!important;
   opacity: 1;
 }
 
@@ -492,7 +492,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #000000;
-  color: #fe664e!important;
+  color: lightskyblue!important;
   padding-left: 25px;
 }
 
@@ -632,7 +632,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fe664e;
+  color: lightskyblue;
 }
 
 @media (max-width: 1200px) {
@@ -671,7 +671,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #fe664e!important;
+    color: lightskyblue!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -733,7 +733,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fe664e!important;
+    color: lightskyblue!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -847,7 +847,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #fe664e;
+    background: lightskyblue;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -870,7 +870,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #fe664e;
+    background: lightskyblue;
     border-radius: 50%;
 }
 
@@ -883,13 +883,23 @@ Banner Style
 */
 
 .main-banner {
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: center center;
+  background-image: url(../images/temp.jpg);
   background-size: cover;
   padding: 226px 0px 120px 0px;
   position: relative;
   overflow: hidden;
 }
+
+/*padding-top: 10rem;*/
+/*padding-bottom: calc(10rem - 4.5rem);*/
+/*background-position: center;*/
+/*background-repeat: no-repeat;*/
+/*background-attachment: scroll;*/
+/*background-size: cover;*/
+/*}*/
 
 .main-banner:after {
   content: '';
@@ -906,12 +916,13 @@ Banner Style
 .main-banner:before {
   content: '';
   background-image: url(../images/slider-right-dec.jpg);
+  /*background-color: rgba(21, 31, 18, 0.53);*/
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
   top: 60px;
-  width: 1159px;
-  height: 797px;
+  width: 2490px;
+  height: 1080px;
   z-index: -1;
 }
 
@@ -923,24 +934,23 @@ Banner Style
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 700;
-  color: #fe664e;
+  color: lightskyblue;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
 
-.main-banner .left-content h3 {
+.main-banner .left-content h2 {
   z-index: 2;
   position: relative;
   font-weight: 700;
-  font-size: 45px;
-  color:#FFF;
+  font-size: 30px;
+  color:lightskyblue;
   margin-bottom: 20px;
 }
 
 .main-banner .left-content p {
   margin-bottom: 30px;
-  margin-right: 45px;
-  font-size: 20px;
+  /*margin-right: 45px;*/
 }
 
 .main-banner .right-image {
@@ -1030,15 +1040,15 @@ About Style
 }
 
 .first-skill-item .progress .progress-bar {
-  border-color: #fe664e;
+  border-color: lightskyblue;
 }
 
 .second-skill-item .progress .progress-bar {
-  border-color: #726ae3;
+  border-color: darkgreen;
 }
 
 .third-skill-item .progress .progress-bar {
-  border-color: #f58b56;
+  border-color: #fff;
 }
 
 .progress .progress-left .progress-bar {
@@ -1062,7 +1072,7 @@ About Style
 }
 .progress .progress-value {
   text-align: center;
-  color: #2a2a2a;
+  color: #fff;
   display: flex;
   width: 100%;
   border-radius: 50%;
@@ -1285,7 +1295,7 @@ Services Style
 }
 
 .services .naccs .menu div {
-  color: #2a2a2a;
+  color: #fff;
   margin: 0px;
   width: 15%;
   font-size: 20px;
@@ -1306,7 +1316,7 @@ Services Style
 }
 
 .services .naccs .menu div.active {
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px #fff;
 }
 
 .services ul.nacc {
@@ -1333,7 +1343,7 @@ Services Style
   z-index: 2;
   opacity: 1;
   transform: translateX(0px);
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px #fff;
   background-color: #000000;
   border-radius: 15px;
   padding: 80px 120px 50px 120px;
@@ -1372,13 +1382,14 @@ Services Style
 }
 
 .services .left-text h4 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
-  color: #fe664e !important;
+  color: lightskyblue !important;
 }
 
 .services .left-text p {
   margin-bottom: 30px;
+  font-size: 20px;
 }
 
 .nacc .ticks-list span {
@@ -1460,7 +1471,7 @@ Free Quote
   outline: none;
   border: none;
   margin-left: 30px;
-  background-color: #fe664e;
+  background-color: lightskyblue;
   font-size: 15px;
   color: #000000;
 }
@@ -1531,7 +1542,7 @@ Portfolio
 
 .portfolio-item:hover .down-content h4,
 .portfolio-item:hover .down-content span {
-  color: #fe664e;
+  color: lightskyblue;
 }
 
 .portfolio-item .thumb img {
@@ -1589,7 +1600,7 @@ Portfolio
 
 .our-portfolio .owl-nav span:hover {
   color: #000000;
-  background-color: #fe664e;
+  background-color: lightskyblue;
 }
 
 
@@ -1601,7 +1612,7 @@ Blog
 
 .blog:before {
   content: '';
-  background-image: url(../images/blog-left-dec.gif);
+  /*background-image: url(../images/blog-left-dec.gif);*/
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1651,7 +1662,7 @@ Blog
   font-size: 15px;
   color: #000000;
   padding: 8px 12px;
-  background-color: #fe664e;
+  background-color: lightskyblue;
   border-radius: 18px;
   display: inline-block;
 }
@@ -1667,7 +1678,7 @@ Blog
 .blog-post .down-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #fff;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 30px;
@@ -1679,7 +1690,7 @@ Blog
 
 .blog-post .down-content span.author {
   font-size: 15px;
-  color: #2a2a2a;
+  color: #fff3cd;
 }
 
 .blog-post .down-content span.author img {
@@ -1724,7 +1735,7 @@ Blog
   font-size: 15px;
   color: #000000;
   padding: 8px 12px;
-  background-color: #fe664e;
+  background-color: lightskyblue;
   border-radius: 18px;
   display: inline-block;
 }
@@ -1824,7 +1835,7 @@ form#contact #map iframe {
 
 .fill-form .icon {
   text-align: center;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px #fff;
   border-radius: 23px;
   padding: 25px 15px;
 }
@@ -1845,14 +1856,14 @@ form#contact #map iframe {
 }
 
 .fill-form .icon:hover a {
-  color: #fe664e;
+  color: lightskyblue;
 }
 
 form#contact input {
   width: 100%;
   height: 46px;
   background-color: transparent;
-  border: 1px solid #eee;
+  border: 1px solid #fff;
   outline: none;
   font-size: 15px;
   font-weight: 300;
@@ -1893,20 +1904,20 @@ form#contact button {
   background-color: #000000;
   font-size: 15px;
   font-weight: 400;
-  color: #fe664e;
+  color: lightskyblue;
   margin-top: 30px;
   width: 100%;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border: 1px solid #fe664e;
+  border: 1px solid lightskyblue;
   transition: all .3s;
   outline: none;
 }
 
 form#contact button:hover {
-  background-color: #fe664e!important;
+  background-color: lightskyblue!important;
   color: #000000!important;
 }
 
@@ -1917,7 +1928,7 @@ Footer Style
 */
 
 footer {
-  background-image: url(../images/footer-bg-v2.jpg);
+  background-image: url(../images/footer-bg-v3.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2022,8 +2033,48 @@ responsive
     padding: 45px;
   }
 }
-
+#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
+  max-width: 1920px;
+}
+#portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
+  position: relative;
+  display: block;
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(244, 98, 58, 0.9);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1.2rem;
+}
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
 @media (max-width: 767px) {
+  .main-banner {
+    /*background-image: url(../images/temp.jpg);*/
+    /*background-size: cover;*/
+    width:363px;
+    height:363px;
+  }
   .header-area .main-nav .logo h4 {
     font-size: 30px;
   }
@@ -2047,7 +2098,7 @@ responsive
     display: inline-block;
   }
   .services .naccs .menu div .thumb {
-    padding: 5px;
+    padding: 0px;
   }
   .services .icon img {
     margin: 0px;
@@ -2056,7 +2107,7 @@ responsive
     padding: 45px;
   }
   .services .naccs .menu div  {
-    font-size: 0px;
+    font-size: 15px;
   }
   .services ul.nacc li .right-image img {
     float: none;
