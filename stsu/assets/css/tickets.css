@@ -660,6 +660,10 @@ header
 }
 
 @media (max-width: 767px) {
+  .main-banner .row-100{
+    margin: 30px auto 0px auto;
+  }
+
   .pre-header ul.info li:last-child {
     display: none;
   }
@@ -886,11 +890,11 @@ Banner Style
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(../images/temp.jpg);
+  /*background-image: url(../images/temp.jpg);*/
   background-size: cover;
   padding: 226px 0px 120px 0px;
   position: relative;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 /*padding-top: 10rem;*/
@@ -903,7 +907,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/slider-left-dec.jpg);
+  /*background-image: url(../images/slider-left-dec.jpg);*/
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -915,7 +919,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/slider-right-dec.jpg);
+  /*background-image: url(../images/slider-right-dec.jpg);*/
   /*background-color: rgba(21, 31, 18, 0.53);*/
   background-repeat: no-repeat;
   position: absolute;
@@ -962,7 +966,6 @@ Banner Style
 .main-banner .right-image img {
   max-width: 593px;
 }
-
 
 
 
@@ -2076,11 +2079,6 @@ responsive
     width:363px;
     height:363px;
   }
-
-  .main-banner .row-100{
-
-  }
-
   .header-area .main-nav .logo h4 {
     font-size: 30px;
   }
