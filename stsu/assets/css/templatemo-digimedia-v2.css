@@ -1385,6 +1385,8 @@ Services Style
 }
 
 .services ul.nacc li .right-image img {
+  background-size: 0 0;
+  background-image: url("/assets/images/fire.JPG");
   max-width: 420px;
   float: right;
 }
@@ -2160,6 +2162,8 @@ responsive
     font-size: 15px;
   }
   .services ul.nacc li .right-image img {
+    background-size: 0 0;
+    background-image: url("/assets/images/fire.JPG");
     float: none;
   }
   .our-portfolio .section-heading,
