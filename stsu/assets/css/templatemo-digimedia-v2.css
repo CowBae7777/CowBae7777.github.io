@@ -160,6 +160,12 @@ body {
 }
 
 @media (max-width: 991px) {
+
+  .row-100 {
+    height: 166px;
+    --bs-gutter-x: 4rem ;
+  }
+
   html, body {
     overflow-x: hidden;
   }
@@ -636,6 +642,12 @@ header
 }
 
 @media (max-width: 1200px) {
+
+  .row-100 {
+    height: 166px;
+    --bs-gutter-x: 4rem ;
+  }
+
   .header-area .main-nav .nav li {
     padding-left: 12px;
     padding-right: 12px;
@@ -646,6 +658,12 @@ header
 }
 
 @media (max-width: 992px) {
+
+  .row-100 {
+    height: 166px;
+    --bs-gutter-x: 4rem ;
+  }
+
   .header-area .main-nav .nav li:last-child  ,
   .background-header .main-nav .nav li:last-child {
     display: none;
@@ -660,6 +678,12 @@ header
 }
 
 @media (max-width: 767px) {
+
+  .row-100 {
+    height: 166px;
+    --bs-gutter-x: 4rem ;
+  }
+
   .pre-header ul.info li:last-child {
     display: none;
   }
@@ -769,6 +793,12 @@ header
 }
 
 @media (min-width: 767px) {
+
+  .row-100 {
+    height: 166px;
+    --bs-gutter-x: 4rem ;
+  }
+
   .header-area .main-nav .nav {
     display: flex !important;
   }
@@ -1954,6 +1984,12 @@ responsive
 */
 
 @media (max-width: 1200px) {
+
+  .row-100 {
+    height: 166px;
+    --bs-gutter-x: 4rem ;
+  }
+
   .header-area .main-nav .logo h4 {
     font-size: 24px;
   }
@@ -1967,6 +2003,12 @@ responsive
 }
 
 @media (max-width: 992px) {
+
+  .row-100 {
+    height: 166px;
+    --bs-gutter-x: 4rem ;
+  }
+
   form#contact {
     overflow: hidden;
   }
@@ -2080,6 +2122,7 @@ responsive
 
   .row-100 {
     height: 166px;
+    --bs-gutter-x: 4rem ;
   }
 
   .header-area .main-nav .logo h4 {
