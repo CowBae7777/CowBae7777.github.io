@@ -127,9 +127,10 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
+  background-image: url(../images/temp.jpg);
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: darkgreen;
+  background-color: #000000;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -948,7 +949,7 @@ Banner Style
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(../images/temp.jpg);
+  /*background-image: url(../images/temp.jpg);*/
   background-size: cover;
   padding: 226px 0px 120px 0px;
   position: relative;
